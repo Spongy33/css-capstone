@@ -1,0 +1,147 @@
+body{
+    text-align: center;
+}
+
+hr {
+    border: dotted maroon 10px;
+    border-bottom: none;
+    opacity: 0.7;
+    width: 4%;
+    margin-top: 100px;
+}
+
+#hr1 {
+    margin-top: 250px;
+}
+
+div{
+    display: block;
+}
+
+h2{
+    display: block;
+    font-family: 'Dancing Script', cursive;
+    color: #fa9b75;
+    font-size: 40px;
+}
+
+h3 {
+    display: block;
+    color: #fc672c;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+p {
+    display: block;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.bubbles{
+    float: right;
+    margin-right: 150px;
+    margin-top: 130px;
+}
+
+.circle{
+    position: relative;
+    border: 10px;
+    border-radius: 50%;
+    background-color: #FFECD4;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    box-shadow: 5px 5px maroon;
+}
+
+.headsec{
+    display: inline-block;
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 110px;
+    padding-top: 40px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.head1{
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to right, #ccc 50%, maroon 50%) bottom,
+    linear-gradient(to right, maroon 50%, #ccc 50%) top;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+}
+
+.head2{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.middle-section{
+    position: relative;
+    margin-top: 100px;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.sec3par{
+    padding-left: 20px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+a{
+    color: #fc672c;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.btn{
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    background: #fc672c;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background: #fa9b75;
+}
+
+.bottom-container{
+    background-color: #fa9b75;
+    padding: 50px 0 20px;
+    margin-top: 100px;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 1rem;
+    padding: 20px 0;
+}
